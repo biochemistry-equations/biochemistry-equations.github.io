@@ -1,5 +1,6 @@
 project:
   type: website
+  output-dir: docs
 
 website:
   title: "Biochemistry Equations"
@@ -8,31 +9,34 @@ website:
     left:
       - text: "Chemical Kinetics"
         menu:
+          - text: "Chemical Kinetics Overview"
+            href: Chemical_Kinetics/index.html  
           - text: "Zero Order"
-            href: Chemical_Kinetics/zero_order.ipynb
+            href: Chemical_Kinetics/zero_order.html
           - text: "First Order"
-            href: Chemical_Kinetics/first_order.ipynb
+            href: Chemical_Kinetics/first_order.html
           - text: "Second Order"
-            href: Chemical_Kinetics/second_order.ipynb
+            href: Chemical_Kinetics/second_order.html
             
       - text: "Ligand Binding"
         menu:
+          - text: "Ligand Binding Overview"
+            href: Ligand_Binding/index.html  
           - text: "Hyperbola"
-            href: Ligand_Binding/hyperbola.ipynb
-            
+            href: Ligand_Binding/hyperbola.html
           - text: "Quadratic"
-            href: Ligand_Binding/quadratic.ipynb
+            href: Ligand_Binding/quadratic.html
       
       - text: "Drug Binding"
         menu:
+          - text: "Drug Binding Overview"
+            href: Drug_Binding/index.html  
           - text: "Cheng Prusoff"
-            href: Drug_Binding/cheng_prusoff.ipynb
-            
+            href: Drug_Binding/cheng_prusoff.html
           - text: "Munson Rodbard"
-            href: Drug_Binding/munson_rodbard.ipynb
-            
+            href: Drug_Binding/munson_rodbard.html
           - text: "Motulsky Mahan"
-            href: Drug_Binding/motulsky_mahan.ipynb  
+            href: Drug_Binding/motulsky_mahan.html  
     
     right:
       - icon: github
@@ -40,7 +44,7 @@ website:
         aria-label: GitHub Repository
         
       - text: "About"
-        href: about.qmd  
+        href: about.html
 
 format:
   html:

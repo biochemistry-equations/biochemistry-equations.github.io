@@ -1,0 +1,12 @@
+---
+title: "Chemical Kinetics"
+---
+
+# Chemical Kinetics
+
+This section will cover topics like:
+- Zero-order reactions
+- First-order reactions
+- Second-order reactions
+
+You can explore notebooks and examples here.

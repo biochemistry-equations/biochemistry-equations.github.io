@@ -1,0 +1,12 @@
+---
+title: "Ligand Binding"
+---
+
+# Ligand Binding
+
+This section will include:
+- Hyperbolic binding models
+- Quadratic binding equations
+- Cooperative binding
+
+Stay tuned for detailed derivations and plots.

@@ -7,6 +7,76 @@
     "text": "coming soon"
   },
   {
+    "objectID": "Ligand_Binding/hyperbola.html",
+    "href": "Ligand_Binding/hyperbola.html",
+    "title": "hyperbola",
+    "section": "",
+    "text": "coming soon"
+  },
+  {
+    "objectID": "Drug_Binding/munson_rodbard.html",
+    "href": "Drug_Binding/munson_rodbard.html",
+    "title": "munson rodbard",
+    "section": "",
+    "text": "coming soon"
+  },
+  {
+    "objectID": "Drug_Binding/index.html",
+    "href": "Drug_Binding/index.html",
+    "title": "Drug Binding",
+    "section": "",
+    "text": "Drug Binding\nThis section will cover topics like: - Cheng Prusoff - Munson Rodbard - Motulsky Mahan\nYou can explore notebooks and examples here."
+  },
+  {
+    "objectID": "Chemical_Kinetics/zero_order.html",
+    "href": "Chemical_Kinetics/zero_order.html",
+    "title": "zero order",
+    "section": "",
+    "text": "coming soon"
+  },
+  {
+    "objectID": "Chemical_Kinetics/index.html",
+    "href": "Chemical_Kinetics/index.html",
+    "title": "Chemical Kinetics",
+    "section": "",
+    "text": "Chemical Kinetics\nThis section will cover topics like: - Zero-order reactions - First-order reactions - Second-order reactions\nYou can explore notebooks and examples here."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "Chemical_Kinetics/first_order.html",
+    "href": "Chemical_Kinetics/first_order.html",
+    "title": "first order reaction",
+    "section": "",
+    "text": "The rate law is:\n\\[\n\\frac{d[A]}{dt} = -k[A]\n\\]\nIntegrating gives:\n\\[\n\\ln[A] = \\ln[A]_0 - kt\n\\]\n\n\nCode\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nt = np.linspace(0, 10, 10)\nA0 = 1.0\nk = 0.3\nA = A0 * np.exp(-k * t)\n\nplt.figure(figsize = (2,2))\nplt.plot(t, A, '-ok')\nplt.xlabel(\"Time\")\nplt.ylabel(\"[A]\")\nplt.title(\"First-Order Decay\")\nplt.show()"
+  },
+  {
+    "objectID": "Chemical_Kinetics/second_order.html",
+    "href": "Chemical_Kinetics/second_order.html",
+    "title": "second order",
+    "section": "",
+    "text": "coming soon"
+  },
+  {
+    "objectID": "Drug_Binding/cheng_prusoff.html",
+    "href": "Drug_Binding/cheng_prusoff.html",
+    "title": "cheng prusoff",
+    "section": "",
+    "text": "coming soon"
+  },
+  {
+    "objectID": "Drug_Binding/motulsky_mahan.html",
+    "href": "Drug_Binding/motulsky_mahan.html",
+    "title": "motulsky mahan",
+    "section": "",
+    "text": "coming soon"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Biochemistry Equations (Heading)",
@@ -21,59 +91,10 @@
     "text": "This site collects key equations and derivations used in biochemistry.\n\nChemical Kinetics\nLigand Binding\nDrug Binding"
   },
   {
-    "objectID": "Drug_binding/motulsky_mahan.html",
-    "href": "Drug_binding/motulsky_mahan.html",
-    "title": "motulsky mahan",
+    "objectID": "Ligand_Binding/index.html",
+    "href": "Ligand_Binding/index.html",
+    "title": "Ligand Binding",
     "section": "",
-    "text": "coming soon"
-  },
-  {
-    "objectID": "Chemical_Kinetics/zero_order.html",
-    "href": "Chemical_Kinetics/zero_order.html",
-    "title": "zero order",
-    "section": "",
-    "text": "coming soon"
-  },
-  {
-    "objectID": "Chemical_Kinetics/first_order.html",
-    "href": "Chemical_Kinetics/first_order.html",
-    "title": "first order reaction",
-    "section": "",
-    "text": "The rate law is:\n\\[\n\\frac{d[A]}{dt} = -k[A]\n\\]\nIntegrating gives:\n\\[\n\\ln[A] = \\ln[A]_0 - kt\n\\]\n\n\nCode\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nt = np.linspace(0, 10, 10)\nA0 = 1.0\nk = 0.3\nA = A0 * np.exp(-k * t)\n\nplt.figure(figsize = (2,2))\nplt.plot(t, A, '-ok')\nplt.xlabel(\"Time\")\nplt.ylabel(\"[A]\")\nplt.title(\"First-Order Decay\")\nplt.show()"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site"
-  },
-  {
-    "objectID": "Chemical_Kinetics/second_order.html",
-    "href": "Chemical_Kinetics/second_order.html",
-    "title": "second order",
-    "section": "",
-    "text": "coming soon"
-  },
-  {
-    "objectID": "Drug_binding/cheng_prusoff.html",
-    "href": "Drug_binding/cheng_prusoff.html",
-    "title": "cheng prusoff",
-    "section": "",
-    "text": "coming soon"
-  },
-  {
-    "objectID": "Drug_binding/munson_rodbard.html",
-    "href": "Drug_binding/munson_rodbard.html",
-    "title": "munson rodbard",
-    "section": "",
-    "text": "coming soon"
-  },
-  {
-    "objectID": "Ligand_Binding/hyperbola.html",
-    "href": "Ligand_Binding/hyperbola.html",
-    "title": "hyperbola",
-    "section": "",
-    "text": "coming soon"
+    "text": "Ligand Binding\nThis section will include: - Hyperbolic binding models - Quadratic binding equations - Cooperative binding\nStay tuned for detailed derivations and plots."
   }
 ]

@@ -1,0 +1,86 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Biochemistry Equations (Heading)",
+    "section": "",
+    "text": "This site collects key equations and derivations used in biochemistry.\n\nChemical Kinetics\nLigand Binding\nDrug Binding"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "Ligand Binding/quadratic.html",
+    "href": "Ligand Binding/quadratic.html",
+    "title": "quadratic",
+    "section": "",
+    "text": "First-Order Reaction\nThe rate la##w is:\n\\[\n\\frac{d[A]}{dt} = -k[A]\n\\]\nIntegrating gives:\n\\[\n\\ln[A] = -kt + \\ln[A]_0\n\\]\n\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nt = np.linspace(0, 10, 100)\nA0 = 1.0\nk = 0.3\nA = A0 * np.exp(-k * t)\n\nplt.plot(t, A)\nplt.xlabel(\"Time\")\nplt.ylabel(\"[A]\")\nplt.title(\"First-Order Decay\")\nplt.show()"
+  },
+  {
+    "objectID": "Ligand_Binding/quadratic.html",
+    "href": "Ligand_Binding/quadratic.html",
+    "title": "quadratic",
+    "section": "",
+    "text": "coming soon"
+  },
+  {
+    "objectID": "index.html#welcome-another-heading-1",
+    "href": "index.html#welcome-another-heading-1",
+    "title": "Biochemistry Equations (Heading)",
+    "section": "",
+    "text": "This site collects key equations and derivations used in biochemistry.\n\nChemical Kinetics\nLigand Binding\nDrug Binding"
+  },
+  {
+    "objectID": "Drug_binding/munson_rodbard.html",
+    "href": "Drug_binding/munson_rodbard.html",
+    "title": "munson rodbard",
+    "section": "",
+    "text": "coming soon"
+  },
+  {
+    "objectID": "Drug_binding/cheng_prusoff.html",
+    "href": "Drug_binding/cheng_prusoff.html",
+    "title": "cheng prusoff",
+    "section": "",
+    "text": "coming soon"
+  },
+  {
+    "objectID": "Chemical_Kinetics/second_order.html",
+    "href": "Chemical_Kinetics/second_order.html",
+    "title": "second order",
+    "section": "",
+    "text": "coming soon"
+  },
+  {
+    "objectID": "Chemical_Kinetics/first_order.html",
+    "href": "Chemical_Kinetics/first_order.html",
+    "title": "first order reaction",
+    "section": "",
+    "text": "The rate law is:\n\\[\n\\frac{d[A]}{dt} = -k[A]\n\\]\nIntegrating gives:\n\\[\n\\ln[A] = \\ln[A]_0 - kt\n\\]\n\n\nCode\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nt = np.linspace(0, 10, 10)\nA0 = 1.0\nk = 0.3\nA = A0 * np.exp(-k * t)\n\nplt.figure(figsize = (2,2))\nplt.plot(t, A, '-ok')\nplt.xlabel(\"Time\")\nplt.ylabel(\"[A]\")\nplt.title(\"First-Order Decay\")\nplt.show()"
+  },
+  {
+    "objectID": "Chemical_Kinetics/zero_order.html",
+    "href": "Chemical_Kinetics/zero_order.html",
+    "title": "zero order",
+    "section": "",
+    "text": "coming soon"
+  },
+  {
+    "objectID": "Drug_binding/motulsky_mahan.html",
+    "href": "Drug_binding/motulsky_mahan.html",
+    "title": "motulsky mahan",
+    "section": "",
+    "text": "coming soon"
+  },
+  {
+    "objectID": "Ligand_Binding/hyperbola.html",
+    "href": "Ligand_Binding/hyperbola.html",
+    "title": "hyperbola",
+    "section": "",
+    "text": "coming soon"
+  }
+]

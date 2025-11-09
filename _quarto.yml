@@ -1,0 +1,54 @@
+project:
+  type: website
+
+website:
+  title: "Biochemistry Equations"
+  site-url: https://biochemistry-equations.github.io/
+  navbar:
+    left:
+      - text: "Chemical Kinetics"
+        menu:
+          - text: "Zero Order"
+            href: Chemical_Kinetics/zero_order.ipynb
+          - text: "First Order"
+            href: Chemical_Kinetics/first_order.ipynb
+          - text: "Second Order"
+            href: Chemical_Kinetics/second_order.ipynb
+            
+      - text: "Ligand Binding"
+        menu:
+          - text: "Hyperbola"
+            href: Ligand_Binding/hyperbola.ipynb
+            
+          - text: "Quadratic"
+            href: Ligand_Binding/quadratic.ipynb
+      
+      - text: "Drug Binding"
+        menu:
+          - text: "Cheng Prusoff"
+            href: Drug_Binding/cheng_prusoff.ipynb
+            
+          - text: "Munson Rodbard"
+            href: Drug_Binding/munson_rodbard.ipynb
+            
+          - text: "Motulsky Mahan"
+            href: Drug_Binding/motulsky_mahan.ipynb  
+    
+    right:
+      - icon: github
+        href: https://github.com/biochemistry-equations/biochemistry-equations.github.io
+        aria-label: GitHub Repository
+        
+      - text: "About"
+        href: about.qmd  
+
+format:
+  html:
+    theme:
+      light: cosmo
+      dark: slate
+    toc: false
+    toc-depth: 2
+    code-fold: true
+    smooth-scroll: true
+    page-layout: article
